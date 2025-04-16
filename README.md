@@ -15,29 +15,35 @@ You can run the project either locally or using Docker.
 #### Running Locally
 
 1. Clone the repository:
-    git clone https://github.com/Angel-Tornero/a-star-algorithm-visualizer-react.git
-    cd a-star-algorithm-visualizer-react
-
+```bash
+git clone https://github.com/Angel-Tornero/a-star-algorithm-visualizer-react.git
+cd a-star-algorithm-visualizer-react
+```
 2. Install dependencies:
-    npm install
-
+```bash
+npm install
+```
 3. Start the development server:
-    npm run dev
-
+```bash
+npm run dev
+```
 4. Visit the link provided in the terminal (usually http://localhost:5173) to use the visualizer.
 
 #### Running with Docker
 
 1. Clone the repository:
-    git clone https://github.com/Angel-Tornero/a-star-algorithm-visualizer-react.git
-    cd a-star-algorithm-visualizer-react
-
+```bash
+git clone https://github.com/Angel-Tornero/a-star-algorithm-visualizer-react.git
+cd a-star-algorithm-visualizer-react
+```
 2. Build the Docker image:
-    docker build -t astar-visualizer .
-
+```bash
+docker build -t astar-visualizer .
+```
 3. Run the Docker container:
-    docker run -p 5173:5173 astar-visualizer
-
+```bash
+docker run -p 5173:5173 astar-visualizer
+```
 4. Visit the link provided in the terminal (usually http://localhost:5173) to use the visualizer.
 
 ---
