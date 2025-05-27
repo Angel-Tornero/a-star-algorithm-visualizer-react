@@ -2,6 +2,8 @@
 
 # A* Algorithm Visualizer - React
 
+![demo](src/assets/demo.gif)
+
 ## 📝 Description
 
 This project visualizes the A* algorithm, allowing you to interact with a dynamic grid where you can add or remove obstacles and reposition the start and goal points. It shows the pathfinding process step by step in real time.
